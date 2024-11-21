@@ -1,12 +1,17 @@
+
+
+
 const Footer = ({logo,about,socialLinks,services}) =>{
-    const { github, instagram, facebook } = socialLinks;
+    // const { github, instagram, facebook } = socialLinks;
     
+
     
     return(
-
         <>
-        <h2>{about}</h2>
-        <h2>bob</h2>
+        <div className="flex w-screen bg-green-500 absolute bottom-0">
+            <img src="" alt="" />
+            <p className="">hi</p>
+        </div>
         </>
     )
 }
